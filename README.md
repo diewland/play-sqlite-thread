@@ -1,6 +1,9 @@
 # play-sqlite-thread
 Play python sqlite interface with muti-requests at the same time
 
+### Situation
+Execute 15 statements from loop in the same second.
+
 ### all-in-one.py
 Stateless concept. opencnx/execute/commit/closecnx in same block. Repeat all steps in every request.
 ```
